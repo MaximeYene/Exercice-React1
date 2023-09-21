@@ -1,0 +1,25 @@
+.user-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+    border: 1px solid;
+    background-color: beige;
+}
+h1{
+    text-align: center;
+}
+.user-list-part {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+    list-style: none;
+    margin-right: 100px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px black;
+    transition: 0.1s;
+    color: #000;
+    font-weight: 600;
+}
+.user-list-part:hover{
+    transform: scale(1.02);
+}
